@@ -16,35 +16,6 @@ UEGEAR_API UClass* Z_Construct_UClass_UUeGearCommands_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ueGear();
 // End Cross Module References
 
-// Begin Class UUeGearCommands Function ExportUnrealLayout
-static const FName NAME_UUeGearCommands_ExportUnrealLayout = FName(TEXT("ExportUnrealLayout"));
-void UUeGearCommands::ExportUnrealLayout()
-{
-	UFunction* Func = FindFunctionChecked(NAME_UUeGearCommands_ExportUnrealLayout);
-	ProcessEvent(Func,NULL);
-}
-struct Z_Construct_UFunction_UUeGearCommands_ExportUnrealLayout_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "ueGear" },
-		{ "ModuleRelativePath", "Public/UeGearCommands.h" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UUeGearCommands_ExportUnrealLayout_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UUeGearCommands, nullptr, "ExportUnrealLayout", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UUeGearCommands_ExportUnrealLayout_Statics::Function_MetaDataParams), Z_Construct_UFunction_UUeGearCommands_ExportUnrealLayout_Statics::Function_MetaDataParams) };
-UFunction* Z_Construct_UFunction_UUeGearCommands_ExportUnrealLayout()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UUeGearCommands_ExportUnrealLayout_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-// End Class UUeGearCommands Function ExportUnrealLayout
-
 // Begin Class UUeGearCommands Function GenerateUegearUi
 static const FName NAME_UUeGearCommands_GenerateUegearUi = FName(TEXT("GenerateUegearUi"));
 void UUeGearCommands::GenerateUegearUi()
@@ -116,64 +87,6 @@ DEFINE_FUNCTION(UUeGearCommands::execGet)
 }
 // End Class UUeGearCommands Function Get
 
-// Begin Class UUeGearCommands Function ImportMayaData
-static const FName NAME_UUeGearCommands_ImportMayaData = FName(TEXT("ImportMayaData"));
-void UUeGearCommands::ImportMayaData()
-{
-	UFunction* Func = FindFunctionChecked(NAME_UUeGearCommands_ImportMayaData);
-	ProcessEvent(Func,NULL);
-}
-struct Z_Construct_UFunction_UUeGearCommands_ImportMayaData_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "ueGear" },
-		{ "ModuleRelativePath", "Public/UeGearCommands.h" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UUeGearCommands_ImportMayaData_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UUeGearCommands, nullptr, "ImportMayaData", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UUeGearCommands_ImportMayaData_Statics::Function_MetaDataParams), Z_Construct_UFunction_UUeGearCommands_ImportMayaData_Statics::Function_MetaDataParams) };
-UFunction* Z_Construct_UFunction_UUeGearCommands_ImportMayaData()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UUeGearCommands_ImportMayaData_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-// End Class UUeGearCommands Function ImportMayaData
-
-// Begin Class UUeGearCommands Function ImportMayaLayout
-static const FName NAME_UUeGearCommands_ImportMayaLayout = FName(TEXT("ImportMayaLayout"));
-void UUeGearCommands::ImportMayaLayout()
-{
-	UFunction* Func = FindFunctionChecked(NAME_UUeGearCommands_ImportMayaLayout);
-	ProcessEvent(Func,NULL);
-}
-struct Z_Construct_UFunction_UUeGearCommands_ImportMayaLayout_Statics
-{
-#if WITH_METADATA
-	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
-		{ "Category", "ueGear" },
-		{ "ModuleRelativePath", "Public/UeGearCommands.h" },
-	};
-#endif // WITH_METADATA
-	static const UECodeGen_Private::FFunctionParams FuncParams;
-};
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UUeGearCommands_ImportMayaLayout_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UUeGearCommands, nullptr, "ImportMayaLayout", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UUeGearCommands_ImportMayaLayout_Statics::Function_MetaDataParams), Z_Construct_UFunction_UUeGearCommands_ImportMayaLayout_Statics::Function_MetaDataParams) };
-UFunction* Z_Construct_UFunction_UUeGearCommands_ImportMayaLayout()
-{
-	static UFunction* ReturnFunction = nullptr;
-	if (!ReturnFunction)
-	{
-		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UUeGearCommands_ImportMayaLayout_Statics::FuncParams);
-	}
-	return ReturnFunction;
-}
-// End Class UUeGearCommands Function ImportMayaLayout
-
 // Begin Class UUeGearCommands
 void UUeGearCommands::StaticRegisterNativesUUeGearCommands()
 {
@@ -200,11 +113,8 @@ struct Z_Construct_UClass_UUeGearCommands_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UUeGearCommands_ExportUnrealLayout, "ExportUnrealLayout" }, // 1740056362
 		{ &Z_Construct_UFunction_UUeGearCommands_GenerateUegearUi, "GenerateUegearUi" }, // 3640783475
 		{ &Z_Construct_UFunction_UUeGearCommands_Get, "Get" }, // 681804571
-		{ &Z_Construct_UFunction_UUeGearCommands_ImportMayaData, "ImportMayaData" }, // 4100622716
-		{ &Z_Construct_UFunction_UUeGearCommands_ImportMayaLayout, "ImportMayaLayout" }, // 382881768
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -250,14 +160,14 @@ UUeGearCommands::~UUeGearCommands() {}
 // End Class UUeGearCommands
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_SIMON_WORK_mGear_repos_ueGear_Package_ueGear_0_5_UE5_5_ueGear_HostProject_Plugins_ueGear_Source_ueGear_Public_UeGearCommands_h_Statics
+struct Z_CompiledInDeferFile_FID_SIMON_WORK_mGear_repos_ueGear_Package_ueGear_1_0_3_UE5_5_ueGear_HostProject_Plugins_ueGear_Source_ueGear_Public_UeGearCommands_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UUeGearCommands, UUeGearCommands::StaticClass, TEXT("UUeGearCommands"), &Z_Registration_Info_UClass_UUeGearCommands, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UUeGearCommands), 1339956018U) },
+		{ Z_Construct_UClass_UUeGearCommands, UUeGearCommands::StaticClass, TEXT("UUeGearCommands"), &Z_Registration_Info_UClass_UUeGearCommands, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UUeGearCommands), 3732335308U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SIMON_WORK_mGear_repos_ueGear_Package_ueGear_0_5_UE5_5_ueGear_HostProject_Plugins_ueGear_Source_ueGear_Public_UeGearCommands_h_2755439071(TEXT("/Script/ueGear"),
-	Z_CompiledInDeferFile_FID_SIMON_WORK_mGear_repos_ueGear_Package_ueGear_0_5_UE5_5_ueGear_HostProject_Plugins_ueGear_Source_ueGear_Public_UeGearCommands_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SIMON_WORK_mGear_repos_ueGear_Package_ueGear_0_5_UE5_5_ueGear_HostProject_Plugins_ueGear_Source_ueGear_Public_UeGearCommands_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_SIMON_WORK_mGear_repos_ueGear_Package_ueGear_1_0_3_UE5_5_ueGear_HostProject_Plugins_ueGear_Source_ueGear_Public_UeGearCommands_h_1240422251(TEXT("/Script/ueGear"),
+	Z_CompiledInDeferFile_FID_SIMON_WORK_mGear_repos_ueGear_Package_ueGear_1_0_3_UE5_5_ueGear_HostProject_Plugins_ueGear_Source_ueGear_Public_UeGearCommands_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_SIMON_WORK_mGear_repos_ueGear_Package_ueGear_1_0_3_UE5_5_ueGear_HostProject_Plugins_ueGear_Source_ueGear_Public_UeGearCommands_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
