@@ -15,6 +15,10 @@
 			"Name": "ueGear",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/"
+		},
+		{
+			"Name": "PCG",
+			"Enabled": true
 		}
 	]
 }
