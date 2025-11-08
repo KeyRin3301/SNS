@@ -1,0 +1,12 @@
+{
+	"SourceFiles": [
+		"D:\\Portfolio\\ENV\\SNS\\SNS\\Plugins\\ueGear\\Source\\ueGearMayaCamera\\ueGearMayaCamera.Build.cs",
+		"D:\\Portfolio\\ENV\\SNS\\SNS\\Plugins\\ueGear\\Source\\ueGear\\ueGear.Build.cs",
+		"D:\\Portfolio\\ENV\\SNS\\SNS\\Intermediate\\Source\\SNS.Build.cs",
+		"D:\\Portfolio\\ENV\\SNS\\SNS\\Intermediate\\Source\\SNS.Target.cs",
+		"D:\\Portfolio\\ENV\\SNS\\SNS\\Intermediate\\Source\\SNSClient.Target.cs",
+		"D:\\Portfolio\\ENV\\SNS\\SNS\\Intermediate\\Source\\SNSEditor.Target.cs",
+		"D:\\Portfolio\\ENV\\SNS\\SNS\\Intermediate\\Source\\SNSServer.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
