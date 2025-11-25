@@ -1,0 +1,8 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SNS.cpp.obj": [
+			"SNS.cpp.obj"
+		]
+	}
+}

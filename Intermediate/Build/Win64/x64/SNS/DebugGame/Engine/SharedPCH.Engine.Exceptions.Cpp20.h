@@ -1,0 +1,3 @@
+// PCH for Runtime/Engine/Public/EngineSharedPCH.h
+#include "D:/Portfolio/ENV/SNS/SNS/Intermediate/Build/Win64/x64/SNS/DebugGame/Engine/SharedDefinitions.Engine.Exceptions.Cpp20.h"
+#include "Runtime/Engine/Public/EngineSharedPCH.h"

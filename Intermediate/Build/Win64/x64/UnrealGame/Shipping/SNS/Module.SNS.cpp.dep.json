@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\portfolio\\env\\sns\\sns\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\sns\\module.sns.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\portfolio\\env\\sns\\sns\\intermediate\\build\\win64\\x64\\sns\\shipping\\core\\sharedpch.core.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\portfolio\\env\\sns\\sns\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\sns\\definitions.sns.h",
+            "d:\\portfolio\\env\\sns\\sns\\intermediate\\source\\sns.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
